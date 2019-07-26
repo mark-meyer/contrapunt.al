@@ -1,0 +1,21 @@
+{
+  "name": "contrapunt.al",
+  "version": "1.0.0",
+  "description": "Landing pages for contrapunt.al website",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^3.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.37.0",
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {
+    "jheap": "^1.0.10",
+    "paper": "^0.12.3"
+  }
+}
