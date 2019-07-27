@@ -71,13 +71,15 @@ h2 {
 
 .flipper {
 	transition: 0.4s;
-	transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
     transform-origin: 100% 50%;
 	position: relative;
 }
 
 .front{
-	backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 	position: relative;
 }
 .back{    
@@ -86,6 +88,7 @@ h2 {
     padding: .5em;
     border: 12px solid gold;
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
     position: absolute;
 	top: 0;
     left: 0;
@@ -127,5 +130,10 @@ h2 {
     h1{
         font-size: 3em;
     }  
+    h2 {
+        margin: .125em;
+        font-size: 1em;
+        margin-bottom: .5em;
+    }
 
 }
