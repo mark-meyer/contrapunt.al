@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "Landing pages for contrapunt.al website",
   "private": true,
+
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open"
   },
   "author": "",
   "license": "ISC",
@@ -12,7 +16,8 @@
     "css-loader": "^3.1.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.37.0",
-    "webpack-cli": "^3.3.6"
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
     "jheap": "^1.0.10",
